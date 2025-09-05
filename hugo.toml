@@ -1,0 +1,52 @@
+# baseURL = 'https://example.org/'
+# languageCode = 'en-us'
+# title = 'My New Hugo Site'
+baseURL = "/"
+languageCode = "en-us"
+title = "Open Sourcerer"
+siteTitle = "OpenSourcerer"
+theme = "terminal"
+
+
+[params]
+	siteTitle = "OpenSourcerer"
+  contentTypeName = "posts"
+  themeColor = "green"
+
+[params.logo]
+logoText = "Open Sourcerer"
+
+[markup.highlight]
+  noClasses = false
+
+
+[menu]
+
+  [[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+  [[menu.main]]
+  identifier = "blog"
+  name = "Blog"
+  url = "/posts/"
+  weight = 2
+
+  [[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 3
+  #
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "/about/"
+  #   weight = 2
+
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
