@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Welcome on Open Sourcerer</title>
-    <link>//localhost:1313/</link>
+    <link>http://localhost:1313/opensourcerer/</link>
     <description>Recent content in Welcome on Open Sourcerer</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 06 Sep 2025 01:31:24 +0100</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/opensourcerer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>//localhost:1313/about/</link>
+      <link>http://localhost:1313/opensourcerer/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>//localhost:1313/about/</guid>
+      <guid>http://localhost:1313/opensourcerer/about/</guid>
       <description>&lt;p&gt;Hi, I am Oussama Ben Hassen I am a 22yo mostly a &lt;code&gt;wonderer&lt;/code&gt; and a &lt;code&gt;coder&lt;/code&gt;,&lt;/p&gt;&#xA;&lt;p&gt;I dont like to put a label on me (coding wise) front or back or systems I do evrery thing that tikles my mind,&lt;/p&gt;&#xA;&lt;p&gt;sorry if I dirft sometimes you will get used to it or to me or whatever, where were we? , oh yes we where about the coding part.&lt;/p&gt;&#xA;&lt;p&gt;yes I like coding, it tickles my mind.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wasm Project</title>
-      <link>//localhost:1313/posts/wasm-project/</link>
+      <link>http://localhost:1313/opensourcerer/posts/wasm-project/</link>
       <pubDate>Sat, 06 Sep 2025 01:31:24 +0100</pubDate>
-      <guid>//localhost:1313/posts/wasm-project/</guid>
-      <description>&lt;h1 id=&#34;hello-there&#34;&gt;Hello there&lt;/h1&gt;&#xA;&lt;iframe src=&#34;opensourcerer/wasm-demo/&#34; width=&#34;100%&#34; height=&#34;600&#34; style=&#34;border:1px solid #ccc;&#34;&gt;&lt;/iframe&gt;</description>
+      <guid>http://localhost:1313/opensourcerer/posts/wasm-project/</guid>
+      <description>&lt;h1 id=&#34;hello-there&#34;&gt;Hello there&lt;/h1&gt;&#xA;&lt;iframe src=&#34;http://localhost:1313/opensourcerer/wasm-demo/&#34; width=&#34;100%&#34; height=&#34;600&#34; style=&#34;border:1px solid #ccc;&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Hello</title>
-      <link>//localhost:1313/posts/hello/</link>
+      <link>http://localhost:1313/opensourcerer/posts/hello/</link>
       <pubDate>Fri, 05 Sep 2025 19:50:08 +0100</pubDate>
-      <guid>//localhost:1313/posts/hello/</guid>
+      <guid>http://localhost:1313/opensourcerer/posts/hello/</guid>
       <description>&lt;p&gt;something looks wrong&lt;/p&gt;</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>//localhost:1313/posts/my-first-post/</link>
+      <link>http://localhost:1313/opensourcerer/posts/my-first-post/</link>
       <pubDate>Fri, 05 Sep 2025 19:46:10 +0100</pubDate>
-      <guid>//localhost:1313/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/opensourcerer/posts/my-first-post/</guid>
       <description>&lt;h1 id=&#34;this-is-my-first-post&#34;&gt;this is my first post&lt;/h1&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-go&#34; data-lang=&#34;go&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;kd&#34;&gt;func&lt;/span&gt;&lt;span class=&#34;w&#34;&gt; &lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;main&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(){&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;        &lt;/span&gt;&lt;span class=&#34;nx&#34;&gt;fmt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;nf&#34;&gt;Println&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;something went wrong&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;w&#34;&gt;    &lt;/span&gt;&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;w&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry&amp;rsquo;s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.&lt;/p&gt;</description>
     </item>
   </channel>

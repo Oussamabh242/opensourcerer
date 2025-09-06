@@ -15,4 +15,4 @@ hideComments = false
 # Hello there
 
 
-<iframe src="opensourcerer/wasm-demo/" width="100%" height="600" style="border:1px solid #ccc;"></iframe>
+<iframe src="/wasm-demo/" width="100%" height="600" style="border:1px solid #ccc;"></iframe>
