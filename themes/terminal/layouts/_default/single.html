@@ -45,6 +45,22 @@
       </div>
     {{- end -}}
   </div>
+  
+<br>
+<hr>
+<br>
+{{ $githubRepo := "https://github.com/Oussamabh242/opensourcerer" }}
+{{ $branch := "main" }}
+{{ $filePath := .File.Path }}
+
+<a 
+  href="{{ printf "%s/edit/%s/content/%s" $githubRepo $branch $filePath }}" 
+  target="_blank"
+  rel="noopener noreferrer"
+  style="color: white; text-decoration: underline; text-decoration-color: white;font-weight:bold"
+>
+  Fix Typos || Suggest Edit ( I promise I will look to it )
+</a>
 
   {{ if eq .Type $.Site.Params.contentTypeName }}
     {{ partial "posts_pagination.html" . }}

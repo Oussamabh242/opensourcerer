@@ -1,7 +1,7 @@
 # baseURL = 'https://example.org/'
 # languageCode = 'en-us'
 # title = 'My New Hugo Site'
-baseURL = "https://oussamabh242.github.io/opensourcerer/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Open Sourcerer"
 siteTitle = "OpenSourcerer"

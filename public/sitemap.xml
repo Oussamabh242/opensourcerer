@@ -2,41 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/opensourcerer/about/</loc>
+    <loc>//localhost:1313/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/</loc>
+    <loc>//localhost:1313/</loc>
     <lastmod>2025-09-06T01:31:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/posts/</loc>
+    <loc>//localhost:1313/posts/</loc>
     <lastmod>2025-09-06T01:31:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/tags/go/</loc>
+    <loc>//localhost:1313/tags/go/</loc>
     <lastmod>2025-09-06T01:31:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/tags/programming/</loc>
+    <loc>//localhost:1313/tags/programming/</loc>
     <lastmod>2025-09-06T01:31:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/tags/</loc>
+    <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-09-06T01:31:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/tags/wasm/</loc>
+    <loc>//localhost:1313/tags/wasm/</loc>
     <lastmod>2025-09-06T01:31:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/posts/wasm-project/</loc>
+    <loc>//localhost:1313/posts/wasm-project/</loc>
     <lastmod>2025-09-06T01:31:24+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/posts/hello/</loc>
+    <loc>//localhost:1313/posts/hello/</loc>
     <lastmod>2025-09-05T19:50:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/tags/post/</loc>
+    <loc>//localhost:1313/tags/post/</loc>
     <lastmod>2025-09-05T19:50:08+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/tags/first/</loc>
+    <loc>//localhost:1313/tags/first/</loc>
     <lastmod>2025-09-05T19:46:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/posts/my-first-post/</loc>
+    <loc>//localhost:1313/posts/my-first-post/</loc>
     <lastmod>2025-09-05T19:46:10+01:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/opensourcerer/categories/</loc>
+    <loc>//localhost:1313/categories/</loc>
   </url>
 </urlset>
