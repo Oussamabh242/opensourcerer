@@ -1,9 +1,25 @@
 {{ define "main" }}
+
   {{ with .Content }}
     <div class="index-content">
       {{ . }}
     </div>
   {{ end }}
+
+  {{/* Tag list at the top */}}
+  {{ if .Site.Taxonomies.tags }}
+    <div class="tag-list" style="margin-bottom: 2rem;">
+      <h2>Tags</h2>
+      <ul style="list-style:none; padding:0;">
+        {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+          <li style="display:inline-block; margin-right:1rem;">
+            <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}">{{ $name }} ({{ len $taxonomy }})</a>
+          </li>
+        {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+
   <div class="posts">
     {{ range .Paginator.Pages }}
       <article class="post on-list">
@@ -24,9 +40,9 @@
         {{ if .Params.tags }}
           <span class="post-tags">
             {{ range .Params.tags }}
-            #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
-              {{- . -}}
-            </a>&nbsp;
+              #<a href="{{ (urlize (printf "tags/%s/" . )) | absLangURL }}">
+                {{- . -}}
+              </a>&nbsp;
             {{ end }}
           </span>
         {{ end }}
@@ -44,7 +60,7 @@
         </div>
 
         {{ if not .Params.showFullContent }}
-           <div>
+          <div>
             <a class="read-more button inline" href="{{ .RelPermalink }}">[{{ $.Site.Params.ReadMore }}]</a>
           </div>
         {{ end }}

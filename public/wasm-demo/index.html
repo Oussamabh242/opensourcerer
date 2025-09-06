@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Go + WASM Demo</title>
+</head>
+<body>
+  <button id="run-wasm" style="margin-button: 500px">Run Project</button>
+  <pre id="output"></pre>
+
+  <script src="/wasm/wasm_exec.js"></script>
+  <script>
+    const go = new Go();
+
+    async function runWasm() {
+      const resp = await fetch("/wasm/main.wasm");
+      const wasmBuffer = await resp.arrayBuffer();
+      const { instance } = await WebAssembly.instantiate(wasmBuffer, go.importObject);
+      go.run(instance);
+    }
+
+    document.getElementById("run-wasm").onclick = () => {
+      runWasm().catch(err => {
+        document.getElementById("output").textContent = "Error: " + err;
+      });
+    };
+  </script>
+</body>
+</html>

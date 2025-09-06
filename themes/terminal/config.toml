@@ -8,7 +8,7 @@
 [params]
   siteTitle = "My Site Title"
   contentTypeName = "posts"
-  themeColor = "green"
+  themeColor = "heliotrope"
 
 
 [menu]

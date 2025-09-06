@@ -5,18 +5,30 @@
     <loc>//localhost:1313/about/</loc>
   </url><url>
     <loc>//localhost:1313/</loc>
-    <lastmod>2025-09-05T19:50:08+01:00</lastmod>
+    <lastmod>2025-09-06T01:31:24+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/</loc>
-    <lastmod>2025-09-05T19:50:08+01:00</lastmod>
+    <lastmod>2025-09-06T01:31:24+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/go/</loc>
+    <lastmod>2025-09-06T01:31:24+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/programming/</loc>
+    <lastmod>2025-09-06T01:31:24+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-09-06T01:31:24+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/wasm/</loc>
+    <lastmod>2025-09-06T01:31:24+01:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/wasm-project/</loc>
+    <lastmod>2025-09-06T01:31:24+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/posts/hello/</loc>
     <lastmod>2025-09-05T19:50:08+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/post/</loc>
-    <lastmod>2025-09-05T19:50:08+01:00</lastmod>
-  </url><url>
-    <loc>//localhost:1313/tags/</loc>
     <lastmod>2025-09-05T19:50:08+01:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/first/</loc>
