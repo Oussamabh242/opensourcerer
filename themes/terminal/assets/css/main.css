@@ -520,3 +520,7 @@ iframe[src*="youtube.com"] {
     display: initial;
   }
 }
+
+.nerd-icon {
+  font-family: "FiraCode Nerd Font", monospace;
+}

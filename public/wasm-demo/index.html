@@ -8,12 +8,12 @@
   <button id="run-wasm" style="margin-button: 500px">Run Project</button>
   <pre id="output"></pre>
 
-  <script src="/wasm/wasm_exec.js"></script>
+  <script src="opensourcerer/wasm/wasm_exec.js"></script>
   <script>
     const go = new Go();
 
     async function runWasm() {
-      const resp = await fetch("/wasm/main.wasm");
+      const resp = await fetch("opensourcerer/wasm/main.wasm");
       const wasmBuffer = await resp.arrayBuffer();
       const { instance } = await WebAssembly.instantiate(wasmBuffer, go.importObject);
       go.run(instance);

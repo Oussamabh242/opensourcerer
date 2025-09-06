@@ -13,7 +13,7 @@
       <link>//localhost:1313/posts/wasm-project/</link>
       <pubDate>Sat, 06 Sep 2025 01:31:24 +0100</pubDate>
       <guid>//localhost:1313/posts/wasm-project/</guid>
-      <description>&lt;h1 id=&#34;hello-there&#34;&gt;Hello there&lt;/h1&gt;&#xA;&lt;iframe src=&#34;//localhost:1313/wasm-demo/&#34; width=&#34;100%&#34; height=&#34;600&#34; style=&#34;border:1px solid #ccc;&#34;&gt;&lt;/iframe&gt;</description>
+      <description>&lt;h1 id=&#34;hello-there&#34;&gt;Hello there&lt;/h1&gt;&#xA;&lt;iframe src=&#34;opensourcerer/wasm-demo/&#34; width=&#34;100%&#34; height=&#34;600&#34; style=&#34;border:1px solid #ccc;&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Hello</title>

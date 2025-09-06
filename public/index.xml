@@ -13,14 +13,14 @@
       <link>//localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>//localhost:1313/about/</guid>
-      <description>&lt;h1 id=&#34;hi-there&#34;&gt;Hi there&lt;/h1&gt;&#xA;&lt;p&gt;My name is Radek and I&amp;rsquo;m the author of this theme. I made it to help you present your ideas easier.&lt;/p&gt;&#xA;&lt;p&gt;We all know how hard is to start something on the web, especially these days. You need to prepare a bunch of stuff, configure them and when that’s done — create the content.&lt;/p&gt;&#xA;&lt;p&gt;This theme is pretty basic and covers all of the essentials. All you have to do is start typing!&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hi, I am Oussama Ben Hassen I am a 22yo mostly a &lt;code&gt;wonderer&lt;/code&gt; and a &lt;code&gt;coder&lt;/code&gt;,&lt;/p&gt;&#xA;&lt;p&gt;I dont like to put a label on me (coding wise) front or back or systems I do evrery thing that tikles my mind,&lt;/p&gt;&#xA;&lt;p&gt;sorry if I dirft sometimes you will get used to it or to me or whatever, where were we? , oh yes we where about the coding part.&lt;/p&gt;&#xA;&lt;p&gt;yes I like coding, it tickles my mind.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Wasm Project</title>
       <link>//localhost:1313/posts/wasm-project/</link>
       <pubDate>Sat, 06 Sep 2025 01:31:24 +0100</pubDate>
       <guid>//localhost:1313/posts/wasm-project/</guid>
-      <description>&lt;h1 id=&#34;hello-there&#34;&gt;Hello there&lt;/h1&gt;&#xA;&lt;iframe src=&#34;//localhost:1313/wasm-demo/&#34; width=&#34;100%&#34; height=&#34;600&#34; style=&#34;border:1px solid #ccc;&#34;&gt;&lt;/iframe&gt;</description>
+      <description>&lt;h1 id=&#34;hello-there&#34;&gt;Hello there&lt;/h1&gt;&#xA;&lt;iframe src=&#34;opensourcerer/wasm-demo/&#34; width=&#34;100%&#34; height=&#34;600&#34; style=&#34;border:1px solid #ccc;&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Hello</title>
