@@ -8,7 +8,7 @@ weight: 3
 ## Do you want to inquire about why this website named like that or you would like to know who am I ?
 
 ### Oh yeah... I forgot that this is not interactive so I guess I will be the one choosing 
-## I will be talking about the idea of the website `what is it ?` && `why is it ?` && `how is it ?` and if you want to find out about me feel free to visit the [About Section](/about )
+## I will be talking about the idea of the website `what is it ?` && `why is it ?` && `how is it ?` and if you want to find out about me feel free to visit the [About Section]({{< relref "about.md" >}})
 
 
 # The What ! Or should I call it the ***Manifesto***
