@@ -13,7 +13,7 @@
       <ul style="list-style:none; padding:0;">
         {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
           <li style="display:inline-block; margin-right:1rem;">
-              <a href="{{ (path.Join "tags" ($name | urlize)) | relURL }}">{{ $name }} ({{ len $taxonomy }})</a>
+              <a href="/opensourcerer/tags/{{ $name | urlize }}">{{ $name }} ({{ len $taxonomy }})</a>
           </li>
         {{ end }}
       </ul>
