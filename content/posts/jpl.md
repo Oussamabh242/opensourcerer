@@ -57,37 +57,58 @@ It feels like writing JSON but waiting for logic to be executed instead of waiti
 basic syntax: 
 ```json 
 {
-  "declare": ["sum", "int", "$value+3 - $sum + 14"],
-  "declare": ["name", "int", 221],
-  "declare": ["sum", "string", "some + y"],
-  "declare": ["firstname", "string", "oussama"],
+  "declare": ["factorial","int",1],
+  "declare": ["num_factorial","int",20],
   "if": {
-    "cond": "$sum>0",
+    "cond": "$num_factorial <> 0",
     "actions": {
-      "declare": ["new", "int", 200],
-      "redeclare": ["sum", "int", "$sum+$new"]
+      "loop": {
+        "range": ["$i",1,"$num_factorial+1",1],
+        "actions": {
+          "if": {
+            "cond": "$i >= 15",
+            "actions": {
+              "print": "It calculated factorial for $i which an Unexpected behavior I guess"
+            }
+          },
+          "redeclare": ["factorial","int","$factorial * $i"],
+          "print": "$i! so far -> $factorial"
+        }
+      }
     }
   },
   "else": {
     "actions": {
-      "declare": ["new", "int", 200],
-      "redeclare": ["sum", "int", "$sum+$new"]
+      "print": "Ofc i know factorial of 0 is 1 and negative numbers don't have factorial"
     }
-  },
-  "declare": ["factorial", "int", 1],
-  "loop": {
-    "range": ["$i", 1, "$sum", 1],
-    "cond": "$sum == 10",
-    "actions": {
-      "redeclare": ["factorial", "int| optioanl", "$factorial*$i"]
-    }
-  },
-  "print": "$factorial"
+  }
 }
 ```
 
 Oh yes this is a valid jpl. 
 And i am not sorry for commiting this crime.
+
+so for its output its 
+```bash
+$ jpl test.json
+1! so far -> 1
+2! so far -> 2
+3! so far -> 6
+4! so far -> 24
+5! so far -> 120
+6! so far -> 720
+7! so far -> 5040
+8! so far -> 40320
+9! so far -> 362880
+10! so far -> 3628800
+11! so far -> 39916800
+12! so far -> 479001600
+
+thread 'main' (472367) panicked at src/vm/vm.rs:136:16:
+attempt to multiply with overflow
+note: run with `RUST_BACKTRACE=1` environment variable to display a backtrace
+
+```
 
 # The How 
 I guess you have a good attention span if you reached this part. I am going to go about the implemntation

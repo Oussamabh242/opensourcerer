@@ -17,18 +17,17 @@ Would you like to know what I use as languages and tools, Okay
 
 * Progarmming Languages
 
-    - My favourite one is `Golang`  <span class="nerd-icon"></span> 
-    - My second favourite is `TypeScript`
+    - My favourite one is `Golang`      
+    - My second favourite is `Rust` 
     - I like low level programming with the holly `C`
-    - Also enjoy `Python`, `Lua`, `Bash` , `Sql`
+    - Also enjoy `Typescript`, `Python`, `Lua`, `Bash` , `Sql`
 
 * OS and stuff
     - I am a `Linux` User I use `Void linux` as my distribution, it is reliable , uptodate, and lightweight.
     - For my code editor I use guess what ... yes you are right `Neovim btw`.
-    - as for the window manager I use `Awesoem wm` for now, and not a fan of hyprland.
+    - as for the window manager I use `DWM` for now, and not a fan of hyprland.
 
-Guess that's it about the programming thing let's move to the wonding thing already
-I Think a lot I ask alot and I try to find answers, 
+Guess that's it about the programming thing
 
 Actually I don't like to talk about myself alot, but you might see this website and ask your self "how the hell doesn't he like to talk about him self and make a full website to share his thing" yeah i guess you are right or maybe not I don't know, I feel like I didn't talk alot about myself but then I see how much `I's` I have written and tell myself I guess I am egotestical. ***huhh! wont try to write any more about myself so you dont see me as an egotestical*** 
 

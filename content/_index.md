@@ -11,15 +11,15 @@ weight: 3
 ## I will be talking about the idea of the website `what is it ?` && `why is it ?` && `how is it ?` and if you want to find out about me feel free to visit the [About Section]({{< relref "about.md" >}})
 
 
-# The What ! Or should I call it the ***Manifesto***
+# The What 
 
-* This is a website of an amateur Human Being who likes to yap about various things especially Programming, People(not "gossip" but rather behavior), Casual thoughts that hit you when you are taking a shower... *I guess this is what i remember for now if I have any thing else I will add it to the topics*.
+* This is a website of an amateur Human Being who likes to yap about various things especially Programming *I guess this is what i remember for now if I have any thing else I will add it to the topics*.
 
 * It wont be AI generated just my pure improvisation, clearly the world had enough of these.
 
 * It wont be like LinkedIn Where every thing is a leadership lesson... *Oh Actually this can be a good post I guess I wont continue this section for the time being it will be turned into a post*.
 
-# The Why ! Think i should call it the ***Ontology*** 
+# The Why !
 
 * ## Reason
 
